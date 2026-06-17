@@ -35,11 +35,11 @@
 - 可结合 AiOpenTool 问答站标签推荐已有答案，减少重复问答。
 - 引导卡片尽量保持小而弱，不遮挡模型正常回答。
 
-### 热更新和保底更新
+### 自动更新和保底更新
 
 - 正式发布包是预编译产物，用户机器不需要 Node、Go、NSIS 等构建环境。
-- SafeTool 会定时检查 GitHub Release，并把预构建包同步到 OSS。
-- 桌面端更新优先读 OSS 索引，异常时按配置回退到保底下载地址。
+- 更新服务会定时检查正式发布包，并同步到桌面应用更新通道。
+- 桌面端按版本号检查更新，异常时会回退到保底下载地址。
 
 ## 适合谁
 
@@ -58,7 +58,7 @@ codex-plusplus-built-windows-x64-v<version>.tar.gz.sha256
 codex-plusplus-built-windows-x64-v<version>.json
 ```
 
-GitHub 自动生成的 Source code zip/tar.gz 不是用户热更新包，SafeTool 和桌面端不会把它当作可用更新。
+GitHub 自动生成的 Source code zip/tar.gz 不是用户热更新包，桌面端不会把它当作可用更新。
 
 ## 安全边界
 
