@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="760" viewBox="0 0 1440 760" role="img" aria-label="模型切换和多账号管理示意">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="22" flood-color="#0f172a" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <rect width="1440" height="760" rx="44" fill="#f5f7fb"/>
+  <text x="72" y="92" fill="#0f172a" font-size="34" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-weight="800">模型和账号都在一个地方切</text>
+  <text x="72" y="132" fill="#64748b" font-size="18" font-family="Segoe UI, Microsoft YaHei, sans-serif">Codex 原生模型、国产模型和多账号额度，统一收进中文控制界面。</text>
+  <g transform="translate(72 178)" filter="url(#shadow)">
+    <rect width="600" height="430" rx="26" fill="#ffffff"/>
+    <text x="34" y="58" fill="#0f172a" font-size="24" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-weight="800">模型接入</text>
+    <g transform="translate(34 98)">
+      <rect width="532" height="56" rx="14" fill="#f8fafc" stroke="#dbe5f5"/>
+      <text x="22" y="36" fill="#334155" font-size="18" font-family="Segoe UI, Microsoft YaHei, sans-serif">Codex / OpenAI 原生模型</text>
+    </g>
+    <g transform="translate(34 174)">
+      <rect width="532" height="56" rx="14" fill="#eef7ff" stroke="#bfdbfe"/>
+      <text x="22" y="36" fill="#1d4ed8" font-size="18" font-family="Segoe UI, Microsoft YaHei, sans-serif">DeepSeek · 自动拉取模型</text>
+    </g>
+    <g transform="translate(34 250)">
+      <rect width="532" height="56" rx="14" fill="#f0fdfa" stroke="#99f6e4"/>
+      <text x="22" y="36" fill="#0f766e" font-size="18" font-family="Segoe UI, Microsoft YaHei, sans-serif">阿里千问 · 兼容接口</text>
+    </g>
+    <g transform="translate(34 326)">
+      <rect width="532" height="56" rx="14" fill="#f5f3ff" stroke="#ddd6fe"/>
+      <text x="22" y="36" fill="#6d28d9" font-size="18" font-family="Segoe UI, Microsoft YaHei, sans-serif">智谱 GLM · 普通接口 / Coding Plan</text>
+    </g>
+  </g>
+  <g transform="translate(736 178)" filter="url(#shadow)">
+    <rect width="632" height="430" rx="26" fill="#ffffff"/>
+    <text x="34" y="58" fill="#0f172a" font-size="24" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-weight="800">多账号切换</text>
+    <g transform="translate(34 102)">
+      <rect width="564" height="132" rx="20" fill="#f8fbff" stroke="#93c5fd"/>
+      <text x="24" y="42" fill="#0f172a" font-size="22" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-weight="800">user@example.com</text>
+      <rect x="396" y="24" width="64" height="30" rx="15" fill="#dcfce7"/>
+      <text x="414" y="45" fill="#15803d" font-size="15" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-weight="800">当前</text>
+      <rect x="472" y="24" width="68" height="30" rx="15" fill="#e0f2fe"/>
+      <text x="489" y="45" fill="#0369a1" font-size="15" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-weight="800">Plus</text>
+      <rect x="24" y="76" width="516" height="12" rx="6" fill="#e2e8f0"/>
+      <rect x="24" y="76" width="452" height="12" rx="6" fill="#22c55e"/>
+      <text x="466" y="110" fill="#16a34a" font-size="18" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-weight="800">88%</text>
+    </g>
+    <g transform="translate(34 258)">
+      <rect width="564" height="92" rx="18" fill="#fff7ed" stroke="#fed7aa"/>
+      <text x="24" y="38" fill="#9a3412" font-size="18" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-weight="800">切换会重启桌面 Codex</text>
+      <text x="24" y="66" fill="#475569" font-size="16" font-family="Segoe UI, Microsoft YaHei, sans-serif">确认后写入目标登录态，并等待桌面端重新拉起。</text>
+    </g>
+  </g>
+</svg>
