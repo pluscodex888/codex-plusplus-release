@@ -1,6 +1,6 @@
 # codex汉化增强版
 
-面向 Windows 桌面 Codex 的本地增强包。它不替代官方 Codex，而是在桌面端补齐中文界面、国产模型接入、多账号切换、新手自动化引导和热更新能力。
+面向 Windows 桌面 Codex 的本地增强包。它不替代官方 Codex，而是在桌面端补齐中文界面、国产模型接入、多账号切换、新手自动化引导和自动更新能力。
 
 ![codex汉化增强版概览](assets/codex-plusplus-overview.svg)
 
@@ -35,11 +35,11 @@
 - 可结合 AiOpenTool 问答站标签推荐已有答案，减少重复问答。
 - 引导卡片尽量保持小而弱，不遮挡模型正常回答。
 
-### 自动更新和保底更新
+### 自动更新
 
 - 正式发布包是预编译产物，用户机器不需要 Node、Go、NSIS 等构建环境。
-- 更新服务会定时检查正式发布包，并同步到桌面应用更新通道。
-- 桌面端按版本号检查更新，异常时会回退到保底下载地址。
+- 更新服务会定时检查正式发布版本，并同步到桌面应用更新通道。
+- 桌面端按版本号判断是否需要更新，遇到网络异常会自动尝试可用通道。
 
 ## 适合谁
 
@@ -50,15 +50,7 @@
 
 ## 发布包说明
 
-GitHub Release 中真正用于热更新的是预编译资产：
-
-```text
-codex-plusplus-built-windows-x64-v<version>.tar.gz
-codex-plusplus-built-windows-x64-v<version>.tar.gz.sha256
-codex-plusplus-built-windows-x64-v<version>.json
-```
-
-GitHub 自动生成的 Source code zip/tar.gz 不是用户热更新包，桌面端不会把它当作可用更新。
+GitHub Release 中面向用户的是预编译正式发布资产，配套校验信息和版本元数据会随发布一起提供。用户不需要下载源码，也不需要在本机编译。
 
 ## 安全边界
 
