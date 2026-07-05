@@ -1,14 +1,24 @@
-# codex汉化增强版
+# Codex 汉化增强版｜Windows 版 Codex Desktop 简体中文语言包
 
-面向 Windows 桌面 Codex 的本地增强包。它不替代官方 Codex，而是在桌面端补齐中文界面、国产模型接入、多账号切换、新手自动化引导和自动更新能力。
+Windows 版 Codex Desktop 简体中文语言包，一键安装汉化。codex汉化增强版不替代官方 Codex，而是在桌面端补齐中文界面、Codex 中文菜单、国产模型接入、多账号切换、跳过 Codex 官方登录和自动更新能力。
+
+如果你在搜索 Codex 汉化、Codex 中文、Codex Desktop 汉化、Codex 简体中文、Codex 中文语言包、Codex 国产模型接入或 DeepSeek 接入，本项目就是面向 Windows 桌面 Codex 的一站式增强方案。
 
 ![codex汉化增强版概览](assets/codex-plusplus-overview.svg)
 
+## 关键词
+
+- Codex 汉化、codex汉化、Codex 中文、Codex Desktop 汉化
+- Windows 版 Codex Desktop 简体中文语言包、一键安装汉化
+- Codex 中文菜单、Codex 设置页中文、Codex 插件页中文
+- Codex 国产模型接入、DeepSeek、阿里千问、智谱 GLM
+- Codex 跳过官方登录、API 登录兜底、多账号切换
+
 ## 主要能力
 
-### 中文界面增强
+### Codex 简体中文语言包
 
-- 覆盖桌面 Codex 常用菜单、设置页、插件页和错误提示。
+- 一键安装 Codex 汉化能力，覆盖桌面 Codex 常用菜单、设置页、插件页和错误提示。
 - 将第三方模型接入、更新状态、服务日志等配置项统一成中文表达。
 - 面向普通用户弱化英文技术词，让报错和操作路径更容易理解。
 
@@ -21,10 +31,11 @@
 
 ### 国产模型便捷接入
 
-- 支持 DeepSeek、阿里千问、智谱 GLM 等国产模型入口。
+- 支持 DeepSeek、deepseek-v4-pro、阿里千问、智谱 GLM 等国产模型入口。
 - 支持自动拉取服务商可用模型列表，用户优先下拉选择，不需要手动记模型名。
 - 支持模型接入凭据可用性测试、错误原因中文解释和常见解决方式提示。
 - 支持 Codex 原生模型、国产模型和 GPT 5.5 类模型之间快速切换。
+- 支持跳过 Codex 官方登录，直接配置国产模型并开始使用。
 
 ![模型与账号切换](assets/codex-models-accounts.svg)
 
@@ -43,7 +54,7 @@
 
 ## 适合谁
 
-- 需要中文化桌面 Codex 的用户。
+- 需要 Codex 汉化、Codex 中文菜单或 Codex 简体中文语言包的用户。
 - 想在 Codex 中方便使用 DeepSeek、千问、智谱等国产模型的用户。
 - 有多个 Codex 账号，需要查看额度并快速切换的用户。
 - 不熟悉服务器、域名、备案、模型接入凭据申请流程的新手用户。
