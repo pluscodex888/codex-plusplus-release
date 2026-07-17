@@ -2,13 +2,13 @@
 
 Windows 版 Codex Desktop 简体中文语言包，一键安装汉化。codex汉化增强版不替代官方 Codex，而是在桌面端补齐中文界面、Codex 中文菜单、国产模型接入、多账号切换、跳过 Codex 官方登录和自动更新能力。
 
-如果你在搜索 Codex 汉化、Codex 中文、Codex Desktop 汉化、Codex 简体中文、Codex 中文语言包、Codex 国产模型接入或 DeepSeek 接入，本项目就是面向 Windows 桌面 Codex 的一站式增强方案。
+如果你在搜索 Codex 汉化、chatgpt汉化、Codex 中文、Codex Desktop 汉化、Codex 简体中文、Codex 中文语言包、Codex 国产模型接入或 DeepSeek 接入，本项目就是面向 Windows 桌面 Codex 的一站式增强方案。
 
 ![codex汉化增强版概览](assets/codex-plusplus-overview.svg)
 
 ## 关键词
 
-- Codex 汉化、codex汉化、Codex 中文、Codex Desktop 汉化
+- Codex 汉化、codex汉化、chatgpt汉化、Codex 中文、Codex Desktop 汉化
 - Windows 版 Codex Desktop 简体中文语言包、一键安装汉化
 - Codex 中文菜单、Codex 设置页中文、Codex 插件页中文
 - Codex 国产模型接入、DeepSeek、阿里千问、智谱 GLM
