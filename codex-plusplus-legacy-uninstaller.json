@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "kind": "codex-plusplus-legacy-uninstaller-index",
+  "version": "1.0.0",
+  "installer": "codex-plusplus-legacy-uninstaller-v1.0.0.exe",
+  "url": "https://github.com/pluscodex888/codex-plusplus-release/releases/download/legacy-uninstaller-v1.0.0/codex-plusplus-legacy-uninstaller-v1.0.0.exe",
+  "size": 1274823
+}
